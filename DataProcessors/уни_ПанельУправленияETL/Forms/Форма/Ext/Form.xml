@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="СтрокаПодключения" id="34">
+			<DataPath>Объект.СтрокаПодключения</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СтрокаПодключенияКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="СтрокаПодключенияРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<LabelDecoration name="Декорация2" id="41">
+			<ContextMenu name="Декорация2КонтекстноеМеню" id="42"/>
+			<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="43"/>
+		</LabelDecoration>
+		<Button name="СинхронизироватьСтруктуру" id="52">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.СинхронизироватьСтруктуру</CommandName>
+			<ExtendedTooltip name="СинхронизироватьСтруктуруРасширеннаяПодсказка" id="53"/>
+		</Button>
+		<Button name="ОтладитьГенератор" id="54">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ОтладитьГенератор</CommandName>
+			<ExtendedTooltip name="ОтладитьГенераторРасширеннаяПодсказка" id="55"/>
+		</Button>
+		<Button name="ОтладитьГенераторДанных" id="58">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ОтладитьГенераторДанных</CommandName>
+			<ExtendedTooltip name="ОтладитьГенераторДанныхРасширеннаяПодсказка" id="59"/>
+		</Button>
+		<Button name="ОтладитьТранспорт" id="56">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ОтладитьТранспорт</CommandName>
+			<ExtendedTooltip name="ОтладитьТранспортРасширеннаяПодсказка" id="57"/>
+		</Button>
+		<LabelDecoration name="Декорация1" id="38">
+			<ContextMenu name="Декорация1КонтекстноеМеню" id="39"/>
+			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="40"/>
+		</LabelDecoration>
+		<Table name="ТаблицаРегистров" id="1">
+			<Representation>Tree</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ТаблицаРегистров</DataPath>
+			<ShowCommandBar>auto</ShowCommandBar>
+			<ContextMenu name="ТаблицаРегистровКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="ТаблицаРегистровКоманднаяПанель" id="3">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ТаблицаРегистровРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="ТаблицаРегистровСтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>ТаблицаРегистров</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаРегистровСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="ТаблицаРегистровСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТаблицаРегистровСостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>ТаблицаРегистров</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаРегистровСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ТаблицаРегистровСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТаблицаРегистровУправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>ТаблицаРегистров</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаРегистровУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ТаблицаРегистровУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<CheckBoxField name="ТаблицаРегистровИспользовать" id="22">
+					<DataPath>ТаблицаРегистров.Использовать</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ТаблицаРегистровИспользоватьКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ТаблицаРегистровИспользоватьРасширеннаяПодсказка" id="24"/>
+				</CheckBoxField>
+				<InputField name="ТаблицаРегистровИмяРегистра" id="26">
+					<DataPath>ТаблицаРегистров.ИмяРегистра</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаРегистровИмяРегистраКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ТаблицаРегистровИмяРегистраРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ТаблицаРегистровСинонимРегистра" id="30">
+					<DataPath>ТаблицаРегистров.СинонимРегистра</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаРегистровСинонимРегистраКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="ТаблицаРегистровСинонимРегистраРасширеннаяПодсказка" id="32"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.уни_ПанельУправленияETL</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТаблицаРегистров" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица регистров</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Использовать" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Использовать</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ИмяРегистра" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя регистра</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="СинонимРегистра" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Синоним регистра</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СинхронизироватьСтруктуру" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Синхронизировать структуру</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Синхронизировать структуру</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СинхронизироватьСтруктуру</Action>
+		</Command>
+		<Command name="ОтладитьГенератор" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отладить генератор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отладить генератор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтладитьГенератор</Action>
+		</Command>
+		<Command name="ОтладитьТранспорт" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отладить транспорт</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отладить транспорт</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтладитьТранспорт</Action>
+		</Command>
+		<Command name="ОтладитьГенераторДанных" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отладить генератор данных</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отладить генератор данных</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтладитьГенераторДанных</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="CommonModule.уни_ИнтеграцияСУБДСервер" id="f4239f51-438c-4678-8fc5-5eade18d44e2" configVersion="685d57a5fec33ee7597c94179720a9568d5be898"/>
+		<Metadata name="CommonModule.уни_ИнтеграцияСУБДСервер.Module" id="f4239f51-438c-4678-8fc5-5eade18d44e2.0" configVersion="a0b86b92cd2be48de126c0a2807fea48f1a12724"/>
+		<Metadata name="Configuration.УниверсальнаяИнтеграция" id="47c1599b-38c1-482b-ad60-878ae4170a96" configVersion="a073c8fd86c6597bf769c9cbef5f7e5826147575"/>
+		<Metadata name="DataProcessor.уни_ПанельУправленияETL" id="5ba61dc0-c2d4-4716-b522-d36c85c4b37d" configVersion="c5a5c0af79768d16a2122b2ac47c63fcf1b3f0e9">
+			<Metadata name="DataProcessor.уни_ПанельУправленияETL.Attribute.СтрокаПодключения" id="10dd276a-ca8d-4b43-b066-d7fa5a0da02c"/>
+		</Metadata>
+		<Metadata name="DataProcessor.уни_ПанельУправленияETL.Form.Форма" id="7ff51007-d577-465f-bb0d-0a7c7e3a5a6c" configVersion="45804cbc00e302231abfd21607dc840f67066597"/>
+		<Metadata name="DataProcessor.уни_ПанельУправленияETL.Form.Форма.Form" id="7ff51007-d577-465f-bb0d-0a7c7e3a5a6c.0" configVersion="4198d487092733ded194720474dbc0f4b07bc31f"/>
+		<Metadata name="Enum.уни_СостоянияОчередиВыгрузки" id="639cb525-71f3-436a-b245-dd3fc7351d1e" configVersion="1f2b631737412cf3965c822f70592767d3512947">
+			<Metadata name="Enum.уни_СостоянияОчередиВыгрузки.EnumValue.ВРаботеГенерацииДанных" id="040ad689-3685-4c88-835a-9add6d38f9d8"/>
+			<Metadata name="Enum.уни_СостоянияОчередиВыгрузки.EnumValue.ДанныеВыгружены" id="042c9d00-e278-4026-963d-c45a6574c387"/>
+			<Metadata name="Enum.уни_СостоянияОчередиВыгрузки.EnumValue.Ошибка" id="1cba595f-e89e-4b86-b4d1-893b18a727d8"/>
+			<Metadata name="Enum.уни_СостоянияОчередиВыгрузки.EnumValue.ТребуетсяВыгрузкаДанных" id="5a2c90af-9abe-4e31-b746-6f45238338b5"/>
+			<Metadata name="Enum.уни_СостоянияОчередиВыгрузки.EnumValue.Новый" id="5e008659-9c5c-4d31-80d5-e1b45e34fcb4"/>
+			<Metadata name="Enum.уни_СостоянияОчередиВыгрузки.EnumValue.ВыполняетсяГенерация" id="7558351b-8dab-40bf-8169-d543a32a7ab7"/>
+			<Metadata name="Enum.уни_СостоянияОчередиВыгрузки.EnumValue.ВРаботеОтправки" id="86e25858-d432-48b5-a45f-9ed8226113c4"/>
+			<Metadata name="Enum.уни_СостоянияОчередиВыгрузки.EnumValue.Отправлено" id="94b0c001-fcfd-4271-a8ea-533b0ef31263"/>
+			<Metadata name="Enum.уни_СостоянияОчередиВыгрузки.EnumValue.ГотовКОтправке" id="bb220bc8-a242-4a8b-95b5-58925c141a5f"/>
+		</Metadata>
+		<Metadata name="InformationRegister.уни_ОчередьВыгрузки" id="b2316c6e-4811-4993-af9c-70897f0352b0" configVersion="6b7a1d405d486cd457750ea7def5b03ffaece24d">
+			<Metadata name="InformationRegister.уни_ОчередьВыгрузки.Dimension.УзелОчереди" id="587b1f4a-7523-4550-b386-f0886eab1f41"/>
+			<Metadata name="InformationRegister.уни_ОчередьВыгрузки.Resource.ДатаРегистрации" id="7d85ab73-e8bf-4aad-a39a-13bac7434d31"/>
+			<Metadata name="InformationRegister.уни_ОчередьВыгрузки.Attribute.ПутьКФайлуПакета" id="d0400fb3-06c1-4b3e-9fe9-618efec7dc9a"/>
+			<Metadata name="InformationRegister.уни_ОчередьВыгрузки.Resource.Статус" id="d111a001-3a01-4b96-81fe-21a6b403ff32"/>
+			<Metadata name="InformationRegister.уни_ОчередьВыгрузки.Dimension.ИмяТаблицы" id="e6a6eabd-8374-4fbe-ab19-d7ca97e6c46c"/>
+			<Metadata name="InformationRegister.уни_ОчередьВыгрузки.Resource.КоличествоПопыток" id="ebd31c0c-d570-4f72-9efa-d527306b8784"/>
+			<Metadata name="InformationRegister.уни_ОчередьВыгрузки.Resource.ТекстОшибки" id="fc627912-19c3-4f09-89a9-382b1e0e2963"/>
+		</Metadata>
+		<Metadata name="InformationRegister.уни_ОчередьВыгрузкиДанных" id="add484ef-bd79-4e25-90cf-6f7e1be6a119" configVersion="1bd933c122148585b1b15de3cf30226382f4d5bc">
+			<Metadata name="InformationRegister.уни_ОчередьВыгрузкиДанных.Resource.ТекстОшибки" id="00adc531-fffc-496b-9a40-44a7dd045431"/>
+			<Metadata name="InformationRegister.уни_ОчередьВыгрузкиДанных.Resource.КоличествоПопыток" id="454c07ff-771f-404c-897f-0f569c99e348"/>
+			<Metadata name="InformationRegister.уни_ОчередьВыгрузкиДанных.Resource.Статус" id="5a97e197-a867-4e3b-b8cf-0a7a3b1d64b8"/>
+			<Metadata name="InformationRegister.уни_ОчередьВыгрузкиДанных.Dimension.НомерПакета" id="9aea4f67-59b1-400d-afb2-43cbfef23500"/>
+			<Metadata name="InformationRegister.уни_ОчередьВыгрузкиДанных.Attribute.ПутьКФайлуПакета" id="9f76ec4f-b370-425d-a007-8325aa91b87e"/>
+			<Metadata name="InformationRegister.уни_ОчередьВыгрузкиДанных.Resource.ДатаРегистрации" id="a4028249-cf7a-4d4c-bf12-a10b90f20fa7"/>
+			<Metadata name="InformationRegister.уни_ОчередьВыгрузкиДанных.Dimension.ИмяТаблицы" id="d110f734-98fb-4c89-96e9-8aac9abce0f1"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="07ce0de1-e085-43f3-a56f-f817846d36fd" configVersion="3be992e5cd547846dfae5dccc432f4c9019d8782"/>
+		<Metadata name="Subsystem.уни_Подсистема1" id="60775df3-3265-40a8-9669-dc05859f2f7d" configVersion="f828ca736f1568611327039e035cc4a9df12f2dc"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
