@@ -6,7 +6,7 @@
 	</Events>
 	<ChildItems>
 		<InputField name="СтрокаПодключения" id="34">
-			<DataPath>Объект.СтрокаПодключения</DataPath>
+			<DataPath>1/0:10dd276a-ca8d-4b43-b066-d7fa5a0da02c</DataPath>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СтрокаПодключенияКонтекстноеМеню" id="35"/>
 			<ExtendedTooltip name="СтрокаПодключенияРасширеннаяПодсказка" id="36"/>

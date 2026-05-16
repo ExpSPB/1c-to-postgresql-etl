@@ -66,6 +66,9 @@
 			<Language>Русский</Language>
 			<Subsystem>уни_Подсистема1</Subsystem>
 			<CommonModule>уни_ИнтеграцияСУБДСервер</CommonModule>
+			<ScheduledJob>уни_ETL_ГенераторСтруктуры</ScheduledJob>
+			<ScheduledJob>уни_ETL_ГенераторДанных</ScheduledJob>
+			<ScheduledJob>уни_ETL_УниверсальныйТранспорт</ScheduledJob>
 			<Enum>уни_СостоянияОчередиВыгрузки</Enum>
 			<DataProcessor>уни_ПанельУправленияETL</DataProcessor>
 			<InformationRegister>уни_ОчередьВыгрузки</InformationRegister>

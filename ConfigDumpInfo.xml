@@ -2,13 +2,11 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
 	<ConfigVersions>
 		<Metadata name="CommonModule.уни_ИнтеграцияСУБДСервер" id="f4239f51-438c-4678-8fc5-5eade18d44e2" configVersion="685d57a5fec33ee7597c94179720a9568d5be898"/>
-		<Metadata name="CommonModule.уни_ИнтеграцияСУБДСервер.Module" id="f4239f51-438c-4678-8fc5-5eade18d44e2.0" configVersion="a0b86b92cd2be48de126c0a2807fea48f1a12724"/>
-		<Metadata name="Configuration.УниверсальнаяИнтеграция" id="47c1599b-38c1-482b-ad60-878ae4170a96" configVersion="a073c8fd86c6597bf769c9cbef5f7e5826147575"/>
-		<Metadata name="DataProcessor.уни_ПанельУправленияETL" id="5ba61dc0-c2d4-4716-b522-d36c85c4b37d" configVersion="c5a5c0af79768d16a2122b2ac47c63fcf1b3f0e9">
-			<Metadata name="DataProcessor.уни_ПанельУправленияETL.Attribute.СтрокаПодключения" id="10dd276a-ca8d-4b43-b066-d7fa5a0da02c"/>
-		</Metadata>
+		<Metadata name="CommonModule.уни_ИнтеграцияСУБДСервер.Module" id="f4239f51-438c-4678-8fc5-5eade18d44e2.0" configVersion="dbdcc67284b2c37ffd76486327058d2505a750f3"/>
+		<Metadata name="Configuration.УниверсальнаяИнтеграция" id="47c1599b-38c1-482b-ad60-878ae4170a96" configVersion="11807afebcd5938b4f73e4235ea0485f653e0fc4"/>
+		<Metadata name="DataProcessor.уни_ПанельУправленияETL" id="5ba61dc0-c2d4-4716-b522-d36c85c4b37d" configVersion="2c72e12fc0dcac5a4d9397bf62c2eedfdd1d8052"/>
 		<Metadata name="DataProcessor.уни_ПанельУправленияETL.Form.Форма" id="7ff51007-d577-465f-bb0d-0a7c7e3a5a6c" configVersion="45804cbc00e302231abfd21607dc840f67066597"/>
-		<Metadata name="DataProcessor.уни_ПанельУправленияETL.Form.Форма.Form" id="7ff51007-d577-465f-bb0d-0a7c7e3a5a6c.0" configVersion="4198d487092733ded194720474dbc0f4b07bc31f"/>
+		<Metadata name="DataProcessor.уни_ПанельУправленияETL.Form.Форма.Form" id="7ff51007-d577-465f-bb0d-0a7c7e3a5a6c.0" configVersion="adc8022602dcffb0e65789efc1ab03b83a4bb910"/>
 		<Metadata name="Enum.уни_СостоянияОчередиВыгрузки" id="639cb525-71f3-436a-b245-dd3fc7351d1e" configVersion="1f2b631737412cf3965c822f70592767d3512947">
 			<Metadata name="Enum.уни_СостоянияОчередиВыгрузки.EnumValue.ВРаботеГенерацииДанных" id="040ad689-3685-4c88-835a-9add6d38f9d8"/>
 			<Metadata name="Enum.уни_СостоянияОчередиВыгрузки.EnumValue.ДанныеВыгружены" id="042c9d00-e278-4026-963d-c45a6574c387"/>
@@ -39,6 +37,11 @@
 			<Metadata name="InformationRegister.уни_ОчередьВыгрузкиДанных.Dimension.ИмяТаблицы" id="d110f734-98fb-4c89-96e9-8aac9abce0f1"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="07ce0de1-e085-43f3-a56f-f817846d36fd" configVersion="3be992e5cd547846dfae5dccc432f4c9019d8782"/>
+		<Metadata name="ScheduledJob.уни_ETL_ГенераторДанных" id="ae8365c4-9efa-47d9-9d92-6049ee6f46e6" configVersion="efa95af5c831ef17ae8a9762a400de856a49d7c0"/>
+		<Metadata name="ScheduledJob.уни_ETL_ГенераторСтруктуры" id="9f9e6568-9392-42e9-ab8e-22022d2a542f" configVersion="e53552686ea2750b7633a318e74f5c617da2d3ec"/>
+		<Metadata name="ScheduledJob.уни_ETL_ГенераторСтруктуры.Schedule" id="9f9e6568-9392-42e9-ab8e-22022d2a542f.0" configVersion="6f431a1e9ded6d22a09b34c7107f4f721eb42690"/>
+		<Metadata name="ScheduledJob.уни_ETL_УниверсальныйТранспорт" id="ac5eed38-1b0c-43d4-9214-28aa4862ebe6" configVersion="2a7bc611e7889779906e2450830c9ddaa74d9eeb"/>
+		<Metadata name="ScheduledJob.уни_ETL_УниверсальныйТранспорт.Schedule" id="ac5eed38-1b0c-43d4-9214-28aa4862ebe6.0" configVersion="7f7d08503c80275370317b0093b399f27b98fd84"/>
 		<Metadata name="Subsystem.уни_Подсистема1" id="60775df3-3265-40a8-9669-dc05859f2f7d" configVersion="f828ca736f1568611327039e035cc4a9df12f2dc"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
